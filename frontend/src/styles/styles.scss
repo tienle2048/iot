@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 4px;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  border-radius: 4px;
+}
+
+.content {
+  margin-left: 15%;
+  padding: 1px 16px;
+  width: 85%;
+  height: 100%;
+}
+
+.logo{
+  height: 7vmin;
+}
+.logo-title{
+  font-size: 27px;
+  font-weight: bold;
+  color: #04AA6D;
+}
+.chart{
+  width: 83%;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+} 
+.option-scope{
+  display: flex;
+  margin: 15px;
+  .name-option{
+    width: 25%;
+  }
+}
